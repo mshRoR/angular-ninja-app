@@ -1,1 +1,5 @@
-angular.module('ninjaApp', ['ngRoute', 'ngAnimate']);
+angular.module('ninjaApp', [
+  // 'ngRoute',
+    'ui.router',
+    'ngAnimate'
+  ]);

@@ -5,10 +5,12 @@
     <title>Angular Ninja APP</title>
     <link rel="stylesheet" href="contents/css/styles.css">
     <script src="app/lib/angular.min.js"></script>
-    <script src="app/lib/angular-route.min.js"></script>
+    <!-- <script src="app/lib/angular-route.min.js"></script> -->
+    <script src="app/lib/angular-ui-router.min.js"></script>
     <script src="app/lib/angular-animate.min.js"></script>
     <script src="app/app.js"></script>
     <script src="app/app.config.js"></script>
+    <script src='app/app.services.js'></script>
     <script src="app/header/top-header.directive.js"></script>
     <script src="app/ninjasList/ninjas-list.controller.js"></script>
     <script src='app/contact/contact.controller.js'></script>
@@ -17,6 +19,7 @@
   <body>
     <!-- <header ng-include="'header.html'"></header> -->
     <top-header></top-header>
-    <main ng-view></main>
+    <!-- <main ng-view></main> -->
+    <main ui-view></main>
   </body>
 </html>
