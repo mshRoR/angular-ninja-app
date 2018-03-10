@@ -1,4 +1,4 @@
-# angular-ninja-app
+# Angular Ninja Directory App
 Ninja Directory App using Angularjs directive and controller based
 
 ## Run Ninja Directory App
