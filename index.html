@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html ng-app="ninjaApp">
+  <head>
+    <meta charset="utf-8">
+    <title>Angular Ninja APP</title>
+    <link rel="stylesheet" href="contents/css/styles.css">
+    <script src="app/lib/angular.min.js"></script>
+    <!-- <script src="app/lib/angular-route.min.js"></script> -->
+    <script src="app/lib/angular-ui-router.min.js"></script>
+    <script src="app/lib/angular-animate.min.js"></script>
+    <script src="app/app.js"></script>
+    <script src="app/app.config.js"></script>
+    <script src='app/app.services.js'></script>
+    <script src="app/header/top-header.component.js"></script>
+    <script src="app/ninjasList/ninjas-list.component.js"></script>
+    <script src='app/contact/contact.component.js'></script>
+    <script src="app/home/random-ninja.component.js"></script>
+  </head>
+  <body>
+    <!-- <header ng-include="'header.html'"></header> -->
+    <top-header></top-header>
+    <!-- <main ng-view></main> -->
+    <main ui-view></main>
+  </body>
+</html>

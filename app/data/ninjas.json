@@ -1,0 +1,36 @@
+[{
+  "name": "Yoshi",
+  "belt": "DarkMagenta ",
+  "rate": 50,
+  "available": true,
+  "thumb": "contents/images/ninja-6.png"
+},
+{
+  "name": "Crystal",
+  "belt": "Green",
+  "rate": 40,
+  "available": true,
+  "thumb": "contents/images/ninja-7.png"
+},
+{
+  "name": "Ryu",
+  "belt": "Red",
+  "rate": 10,
+  "available": true,
+  "thumb": "contents/images/ninja-8.png"
+},
+{
+  "name": "Nathan",
+  "belt": "Black",
+  "rate": 1000,
+  "available": true,
+  "thumb": "contents/images/ninja-9.png"
+},
+{
+  "name": "Google",
+  "belt": "Orange",
+  "rate": 1001,
+  "available": false,
+  "thumb": "contents/images/ninja-10.png"
+}
+]
