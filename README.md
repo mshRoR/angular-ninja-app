@@ -1,2 +1,5 @@
-# angular-ninja-app
-Ninja Application using angularjs and convert it to components
+# Angular Ninja Directory App
+Ninja Directory App using Angularjs based on component
+
+## Run Ninja Directory App
+  => `http-server` or directly open `index.html` in browser
